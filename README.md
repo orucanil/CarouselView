@@ -5,7 +5,7 @@ The component was used in the platinum application : https://itunes.apple.com/tr
 ## Display Visual Example 
 
 ----
-![Visual1](http://g.recordit.co/gfRjQrfLdV.gif)
+![Visual1](http://g.recordit.co/elt6VbPnPF.gif)
 
 
 Installation
