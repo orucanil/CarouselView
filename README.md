@@ -1,5 +1,6 @@
 # CarouselView
 
+The component was used in the platinum application : https://itunes.apple.com/tr/app/turkcell-platinum-size-ozel/id671494224?mt=8
 
 ## Display Visual Example 
 
@@ -123,7 +124,7 @@ _carousel.delegate = self;
 
 _carousel.dataSource = self;
 
-_carousel.vertical = YES:
+_carousel.vertical = YES;
 
 [self.view addSubview:_carousel];
 
@@ -144,7 +145,7 @@ _carousel.vertical = YES:
     else
     {
         return [UIView new];
-    {
+    }
 }
 
 -(NSUInteger)numberOfItemsInCarousel:(PLCarouselView *)carouselView
@@ -152,7 +153,7 @@ _carousel.vertical = YES:
     return 10;
 }
 
--(void)carouselView:(PLCarouselView *)carouselView didMoveToView:(PLExpandScrollView *)view
+-(void)carouselView:(PLCarouselView *)carouselView didMoveToView:(UIView *)view
 {
 
 }
