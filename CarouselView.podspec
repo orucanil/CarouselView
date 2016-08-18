@@ -13,6 +13,6 @@ Pod::Spec.new do |s|
   
   s.framework    = "QuartzCore"
 
-  s.source_files = "CarouselView"
+  s.source_files = "./CarouselView/*"
 
 end
